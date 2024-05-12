@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Bitprop Public Page</title>
+    <!-- Update static file paths -->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/property.css') }}"
+    />
+  </head>
+    <div class="header">
+        <h1><span>Bit</span>prop</h1>
+        <a href="/login_page">LOGIN</a>
+    </div>
+    <div class="info">
+    <p>Available Properties</p>
+    </div>
+    <div class="content">
+        <div class="property">
+            <a href="/images">
+                <img src="{{ url_for('static', filename='images/bitprop demo house.jpg') }}" alt="House">
+                <p>Area: Claremont, Cape Town</p>
+                <p>2 Bedrooms, 1 Bathroom, 1 Kitchen, Lounge</p>
+                <p>Price: R15 000,00 p/m</p>
+            </a>
+        </div>
+        <div class="property">
+            <a href="/images">
+                <img src="{{ url_for('static', filename='images/bitprop demo bedroom 2.jpg') }}" alt="Bedroom">
+                <p>Area: Athlone, Cape Town</p>
+                <p>2 Bedrooms, 1 Bathroom, 1 Kitchen, Lounge</p>
+                <p>Price: R13 500,00 p/m</p>
+            </a>
+        </div>
+    </div>
+</html>

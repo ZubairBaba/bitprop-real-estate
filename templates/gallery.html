@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/gallery.css') }}">
+</head>
+<body>
+    <h1>GALLERY</h1>
+    <nav>
+        <a href="/registration_form">APPLY FOR VIEWING</a>
+    </nav>
+    <header>
+        <img src="{{ url_for('static', filename='images/bitprop demo bedroom 1.jpeg') }}" alt="Main Bedroom">
+        <img src="{{ url_for('static', filename='images/bitprop demo bedroom 2.jpg') }}" alt="Guest Bedroom">
+        <img src="{{ url_for('static', filename='images/bitprop demo bathroom.jpg') }}" alt="Bathroom">
+        <img src="{{ url_for('static', filename='images/bitprop demo kitchen.jpg') }}" alt="Kitchen">
+        <img src="{{ url_for('static', filename='images/bitprop demo living room.jpg') }}" alt="Living Room">
+    </header>
+</body>
+</html>
