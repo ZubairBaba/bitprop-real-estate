@@ -1,0 +1,87 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    padding: 10px 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.header a:hover {
+    background-color: blue;
+    color: #ffffff;
+}
+.property img {
+    width: 350px; /* Set a fixed width for the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.property {
+    margin-top: 7px;
+    text-align: center;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.property p {
+    margin: 5px 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.info p {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    font-style: normal;
+    color: rgb(0, 0, 0)   ;
+}
+
+.property img {
+    width: 350px; /* Set a fixed width for the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.property:hover p{
+    background-color: blue;
+    color: #ffffff;
+}
+
+.property:hover{
+    margin-top: 0px;
+    transform: scale(1,1);
+    background-color: blue;
+    color: #ffffff;
+}
+
+.header h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  font-style: normal;
+  color: blue   ;
+}
+
+.header span {
+    font-weight: 600;
+}

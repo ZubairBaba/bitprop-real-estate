@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+}
+
+
+a {
+    flex: 0 0 100px; /* Set a fixed width for each item */
+    margin: 10px; /* Add margin around each item */
+    padding: 5px 15px;
+    text-align: center; /* Center text horizontally */
+    font-size: 18px;
+    color: blue;
+    display: inline-block; /* Display anchor elements as blocks to occupy full width */
+}
+
+a:hover {
+    background-color: blue;
+    color: #ffffff;
+}
