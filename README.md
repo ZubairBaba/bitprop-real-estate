@@ -28,7 +28,6 @@ Thought Process
         Researched existing rental management systems to understand common features and user requirements.
         Studied Flask and SQLite documentation for backend development.
         Explored various email sending APIs for sending notification emails.
-
     Design Process:
         Designed a user-friendly interface using HTML, CSS, and JavaScript.
         Created a simple SQLite database schema for storing property and tenant data.
@@ -63,24 +62,23 @@ Nice-to-Have Features
     Property Search Functionality: Introducing a feature that allows clients to search for properties according to price, location, size, etc., enhancing the user experience and providing more tailored property recommendations.
 
 Setup and Usage
+
     Installation:
         1. Clone the repository:
             git clone https://github.com/your_username/bitprop-real-estate.git
-        
         2. Install dependencies:
             pip install -r requirements.txt
 
     How to run:
         1. Navigate to the project directory:
             cd bitprop-real-estate
-
         2. Run the WebServerFlask.py Application:
             python3 WebServerFlask.py
-
         3. Open a web browser and go to http://localhost:5000 to access the application.
 
 Testing the Code
     To test the functionality of the system:
+    
         1. Ensure that the necessary email configuration is set up in WebServerFlask.py:
             EMAIL_ADDRESS = 'your_email@example.com'
             EMAIL_PASSWORD = 'your_email_password'
